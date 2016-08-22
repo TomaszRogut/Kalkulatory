@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Kalkulatory</string>
+    <string name="prosty">PROSTY</string>
+    <string name="zlozony">ZŁOŻONY</string>
+    <string name="o_autorze">O AUTORZE</string>
+    <string name="info_autor">Tomasz Rogut\nStudia zaoczne PŁ\nKierunek: informatyka\nNumer albumu: 124247</string>
+    <string name="zamknij_aplikacje">ZAMKNIJ APLIKACJĘ</string>
+    <string name="kalkulator">Aplikacja kalkulator v1.0 (m-commerce)</string>
+</resources>

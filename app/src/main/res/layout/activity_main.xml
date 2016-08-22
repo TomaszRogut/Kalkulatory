@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.tomek.kalkulatory.MainActivity">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/prosty"
+        android:id="@+id/button_kalkulator_prosty"
+        android:onClick="openKalkulator1Activity"
+        android:layout_marginTop="49dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/button_kalkulator_zlozony"
+        android:layout_alignEnd="@+id/button_kalkulator_zlozony"
+        android:layout_alignLeft="@+id/button_kalkulator_zlozony"
+        android:layout_alignStart="@+id/button_kalkulator_zlozony" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/zlozony"
+        android:id="@+id/button_kalkulator_zlozony"
+        android:onClick="openKalkulator2Activity"
+        android:layout_below="@+id/button_kalkulator_prosty"
+        android:layout_alignLeft="@+id/button_o_autorze"
+        android:layout_alignStart="@+id/button_o_autorze"
+        android:layout_alignRight="@+id/button_o_autorze"
+        android:layout_alignEnd="@+id/button_o_autorze" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/o_autorze"
+        android:id="@+id/button_o_autorze"
+        android:onClick="openAutorActivity"
+        android:layout_below="@+id/button_kalkulator_zlozony"
+        android:layout_alignRight="@+id/button_zamknij"
+        android:layout_alignEnd="@+id/button_zamknij"
+        android:layout_alignLeft="@+id/button_zamknij"
+        android:layout_alignStart="@+id/button_zamknij" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/zamknij_aplikacje"
+        android:id="@+id/button_zamknij"
+        android:onClick="closeActivity"
+        android:layout_below="@+id/button_o_autorze"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/kalkulator"
+        android:id="@+id/textView2"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
